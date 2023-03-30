@@ -22,7 +22,6 @@ html{
 [class*="col-"] {
     float: left;
     padding: 15px;
-    border: 1px solid red;
 }
 
 .row::after {
@@ -31,9 +30,34 @@ html{
     display: table;
 }
 
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: grid;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main{
+    background-color: white;
+    border-radius: 25px;
+}
+
+img{
+    border-radius: 25px;
+}
+
+h1, p{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
 h1{
     font-size: 1.8rem;
-    text-align: center;
+    color: hsl(218, 44%, 22%)
+}
+
+p{
+    color: hsl(220, 15%, 55%);
 }
 
 .attribution { font-size: 11px; text-align: center; }
