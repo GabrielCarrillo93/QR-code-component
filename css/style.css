@@ -60,6 +60,16 @@ p{
     color: hsl(220, 15%, 55%);
 }
 
+.text h1{
+    font-weight: 700;
+}
+
+.text p{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 400;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
  
